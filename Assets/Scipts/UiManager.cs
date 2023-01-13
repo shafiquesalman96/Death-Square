@@ -8,7 +8,7 @@ public class UiManager : MonoBehaviour
     [SerializeField] private GameObject winMenue;
 
 
-    public static UiManager Instance {get; private set;}
+    public static UiManager Instance { get; private set; }
 
     private void Awake()
     {
@@ -20,6 +20,6 @@ public class UiManager : MonoBehaviour
 
 
 
-  
+
 
 }
